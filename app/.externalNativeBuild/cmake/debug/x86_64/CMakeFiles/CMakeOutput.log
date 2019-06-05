@@ -1,19 +1,19 @@
 The target system is: Android - 1 - x86_64
 The host system is: Darwin - 18.5.0 - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f03b0"
-[1/2] Building C object CMakeFiles/cmTC_f03b0.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_f03b0
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_51ca6"
+[1/2] Building C object CMakeFiles/cmTC_51ca6.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_51ca6
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_706b1"
-[1/2] Building C object CMakeFiles/cmTC_706b1.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_706b1
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_903aa"
+[1/2] Building C object CMakeFiles/cmTC_903aa.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_903aa
 Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
 Target: x86_64-none-linux-android21
 Thread model: posix
@@ -22,16 +22,16 @@ Found candidate GCC installation: /Users/dawn/Library/Android/sdk/ndk-bundle/too
 Selected GCC installation: /Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -pie --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_706b1 /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_706b1.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o
+ "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -pie --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_903aa /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_903aa.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(x86_64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_706b1"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_706b1.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_706b1]
+  ignore line: [Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_903aa"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_903aa.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_903aa]
   ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
   ignore line: [Target: x86_64-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -42,7 +42,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -pie --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_706b1 /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_706b1.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o]
+  link line: [ "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -pie --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_903aa /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_903aa.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o]
     arg [/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64] ==> ignore
     arg [-pie] ==> ignore
@@ -53,7 +53,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_706b1] ==> ignore
+    arg [cmTC_903aa] ==> ignore
     arg [/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64] ==> dir [/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64]
     arg [-L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64] ==> dir [/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64]
@@ -75,7 +75,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_706b1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_903aa.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -97,11 +97,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_deedb"
-[1/2] Building C object CMakeFiles/cmTC_deedb.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_deedb
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_753cf"
+[1/2] Building C object CMakeFiles/cmTC_753cf.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_753cf
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -111,11 +111,11 @@ Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninj
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b39f4"
-[1/2] Building C object CMakeFiles/cmTC_b39f4.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_b39f4
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_90800"
+[1/2] Building C object CMakeFiles/cmTC_90800.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_90800
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -125,11 +125,11 @@ Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninj
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2d4ba"
-[1/2] Building C object CMakeFiles/cmTC_2d4ba.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_2d4ba
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1f398"
+[1/2] Building C object CMakeFiles/cmTC_1f398.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_1f398
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -137,19 +137,19 @@ Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninj
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_8cc71"
-[1/2] Building CXX object CMakeFiles/cmTC_8cc71.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_8cc71
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4c1fc"
+[1/2] Building CXX object CMakeFiles/cmTC_4c1fc.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_4c1fc
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_51717"
-[1/2] Building CXX object CMakeFiles/cmTC_51717.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_51717
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7e361"
+[1/2] Building CXX object CMakeFiles/cmTC_7e361.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_7e361
 Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
 Target: x86_64-none-linux-android21
 Thread model: posix
@@ -158,16 +158,16 @@ Found candidate GCC installation: /Users/dawn/Library/Android/sdk/ndk-bundle/too
 Selected GCC installation: /Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -pie --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_51717 /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_51717.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o
+ "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -pie --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_7e361 /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_7e361.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(x86_64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_51717"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_51717.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_51717]
+  ignore line: [Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7e361"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_7e361.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_7e361]
   ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
   ignore line: [Target: x86_64-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -178,7 +178,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -pie --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_51717 /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_51717.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o]
+  link line: [ "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -pie --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_7e361 /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64 -L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_7e361.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtend_android.o]
     arg [/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64] ==> ignore
     arg [-pie] ==> ignore
@@ -189,7 +189,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_51717] ==> ignore
+    arg [cmTC_7e361] ==> ignore
     arg [/Users/dawn/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64] ==> dir [/Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64]
     arg [-L/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64] ==> dir [/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/x86_64]
@@ -211,7 +211,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_51717.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_7e361.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
     arg [-lgcc] ==> lib [gcc]
@@ -236,11 +236,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_15730"
-[1/2] Building CXX object CMakeFiles/cmTC_15730.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_15730
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2e7c7"
+[1/2] Building CXX object CMakeFiles/cmTC_2e7c7.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_2e7c7
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -303,11 +303,11 @@ Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninj
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f9e50"
-[1/2] Building CXX object CMakeFiles/cmTC_f9e50.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_f9e50
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_57639"
+[1/2] Building CXX object CMakeFiles/cmTC_57639.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_57639
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -370,11 +370,11 @@ Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninj
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a7b19"
-[1/2] Building CXX object CMakeFiles/cmTC_a7b19.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_a7b19
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_02173"
+[1/2] Building CXX object CMakeFiles/cmTC_02173.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_02173
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -437,11 +437,11 @@ Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninj
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_866ad"
-[1/2] Building CXX object CMakeFiles/cmTC_866ad.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_866ad
+Run Build Command:"/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4c7b7"
+[1/2] Building CXX object CMakeFiles/cmTC_4c7b7.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_4c7b7
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

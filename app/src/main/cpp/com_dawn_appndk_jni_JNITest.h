@@ -19,8 +19,10 @@ JNIEXPORT jstring JNICALL Java_com_dawn_appndk_jni_JNITest_accessStaticField(JNI
 JNIEXPORT jstring JNICALL Java_com_dawn_appndk_jni_JNITest_accessMethod(JNIEnv *, jobject);
 
 JNIEXPORT jstring JNICALL Java_com_dawn_appndk_jni_JNITest_accessStaticMethod(JNIEnv *, jobject);
-
-JNIEXPORT jstring JNICALL Java_com_dawn_appndk_jni_JNITest_accessConstructor(JNIEnv *, jobject);
+//访问构造方法
+JNIEXPORT jobject JNICALL Java_com_dawn_appndk_jni_JNITest_accessConstructor(JNIEnv *, jobject);
+//访问父类的方法
+JNIEXPORT void JNICALL Java_com_dawn_appndk_jni_JNITest_accessNonvirtualMethod(JNIEnv *, jobject);
 
 #ifdef __cplusplus
 }

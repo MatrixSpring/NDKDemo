@@ -85,7 +85,7 @@ JNIEXPORT jstring JNICALL Java_com_dawn_appndk_jni_JNITest_accessStaticMethod(JN
 };
 
 //访问java中的构造函数
-JNIEXPORT jstring JNICALL Java_com_dawn_appndk_jni_JNITest_accessConstructor(JNIEnv *env, jobject jobj){
+JNIEXPORT jobject JNICALL Java_com_dawn_appndk_jni_JNITest_accessConstructor(JNIEnv *env, jobject jobj){
    std::string hello = "Hello from C++ gfgfgfgfgf";
    //jobject cls = (*env)->GetObjectClass(env, jobj);
     jclass cls = env->FindClass("java/util/Date");       // 使用GetObjectClass方法获取obj对应的jclass。
@@ -98,9 +98,26 @@ JNIEXPORT jstring JNICALL Java_com_dawn_appndk_jni_JNITest_accessConstructor(JNI
     //获取时间戳
     jlong time = env->CallLongMethod(date_obj, mid);
 
-    printf("time :: %l ",time);
+    //printf("time :: %l ",time);
 
-   return env->NewStringUTF(hello.c_str());
+   return date_obj;
 };
 
+//调用父类的方法
+JNIEXPORT void JNICALL Java_com_dawn_appndk_jni_JNITest_accessNonvirtualMethod(JNIEnv *env, jobject jobj){
+    //获取Java中定义jni接口对象的类
+    jclass jcls = env->GetObjectClass(jobj);
+    //获取这个类中的属性id
+    jfieldID jfid= env->GetFieldID(jcls,"person","Lcom/dawn/appndk/bean/Person;");
+    //获取属性值
+    jobject jobj_person = env->GetObjectField(jobj,jfid);
+    //执行属性中的方法
+    //1.获取方法所在的类
+    jclass jclas_person = env->FindClass("com/dawn/appndk/bean/Person");
+    //2.获取类中的方法签名
+    jmethodID jmid = env->GetMethodID(jclas_person, "playerGame", "()V");
+    //3.执行方法
+    //env->CallObjectMethod(jobj_person,jmid);
+    env->CallNonvirtualObjectMethod(jobj_person,jclas_person,jmid);
+};
 

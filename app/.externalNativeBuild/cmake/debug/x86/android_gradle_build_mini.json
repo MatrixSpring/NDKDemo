@@ -1,18 +1,18 @@
 {
   "buildFiles": [
     "/Users/dawn/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
-    "/Users/dawn/Downloads/ACBC/AppJNI/app/CMakeLists.txt",
+    "/Users/dawn/Downloads/ACBC/NDKDemo/app/CMakeLists.txt",
     "/Users/dawn/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
   ],
   "cleanCommands": [
-    "/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+    "/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86 --target clean"
   ],
   "libraries": {
     "native-lib-Debug-x86": {
       "artifactName": "native-lib",
-      "buildCommand": "/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86 --target native-lib",
+      "buildCommand": "/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/dawn/Downloads/ACBC/NDKDemo/app/.externalNativeBuild/cmake/debug/x86 --target native-lib",
       "abi": "x86",
-      "output": "/Users/dawn/Downloads/ACBC/AppJNI/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
+      "output": "/Users/dawn/Downloads/ACBC/NDKDemo/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
     }
   }
 }
