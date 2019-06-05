@@ -1,0 +1,45 @@
+{
+  "stringTable": {
+    "0": "/Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86",
+    "1": "-isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC  "
+  },
+  "buildFiles": [
+    "/Users/dawn/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/dawn/Downloads/ACBC/AppJNI/app/CMakeLists.txt",
+    "/Users/dawn/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "buildCommand": "/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/x86 --target native-lib",
+      "buildType": "debug",
+      "toolchain": "2803678195",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/dawn/Downloads/ACBC/AppJNI/app/src/main/cpp/com_dawn_appndk_jni_JNITest.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/dawn/Downloads/ACBC/AppJNI/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/dawn/Downloads/ACBC/AppJNI/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "2803678195": {
+      "cppCompilerExecutable": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

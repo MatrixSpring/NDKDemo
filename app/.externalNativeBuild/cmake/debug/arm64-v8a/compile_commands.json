@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/com_dawn_appndk_jni_JNITest.cpp.o -c /Users/dawn/Downloads/ACBC/AppJNI/app/src/main/cpp/com_dawn_appndk_jni_JNITest.cpp",
+  "file": "/Users/dawn/Downloads/ACBC/AppJNI/app/src/main/cpp/com_dawn_appndk_jni_JNITest.cpp"
+},
+
+{
+  "directory": "/Users/dawn/Downloads/ACBC/AppJNI/app/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -c /Users/dawn/Downloads/ACBC/AppJNI/app/src/main/cpp/native-lib.cpp",
+  "file": "/Users/dawn/Downloads/ACBC/AppJNI/app/src/main/cpp/native-lib.cpp"
+}
+]
