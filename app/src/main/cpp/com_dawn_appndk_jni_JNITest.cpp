@@ -121,3 +121,39 @@ JNIEXPORT void JNICALL Java_com_dawn_appndk_jni_JNITest_accessNonvirtualMethod(J
     env->CallNonvirtualObjectMethod(jobj_person,jclas_person,jmid);
 };
 
+//jni异常捕获 保证Java的继续执行
+JNIEXPORT void JNICALL Java_com_dawn_appndk_jni_JNITest_catchException(JNIEnv *env, jobject jobj){
+    jclass cls = env->GetObjectClass(jobj);
+    jfieldID fid = env->GetFieldID(cls, "key2", "Ljava/lang/String;");
+    //检测是否发生Java异常
+    jthrowable exception = env->ExceptionOccurred();
+    if(exception != NULL){
+        //让Java代码可以继续运行
+        //清空异常信息
+        env->ExceptionClear();
+
+    }
+    //通过ThrowNew抛出异常
+    //env->ThrowNew();
+};
+
+//jni缓存的使用
+JNIEXPORT void JNICALL Java_com_dawn_appndk_jni_JNITest_jniCache(JNIEnv *env, jobject jobj){
+    jclass cls = env->GetObjectClass(jobj);
+    //获取jfieldID只获取一次
+    //局部静态变量 作用域在函数里但是生命周期是全局的
+    static jfieldID key_id = NULL;
+    if(key_id == NULL){
+        key_id = env->GetFieldID(cls, "key", "Ljava/lang/String;");
+    }
+
+};
+
+//jni缓存的使用initIds 全局变量初始化
+jfieldID key_fid;
+jmethodID random_mid;
+JNIEXPORT void JNICALL Java_com_dawn_appndk_jni_JNITest_initGlobalIds(JNIEnv *env, jobject jobj){
+    jclass cls = env->GetObjectClass(jobj);
+    key_fid = env->GetFieldID(cls, "key","Ljava/lang/String;");
+    random_mid = env->GetMethodID(cls, "gentRandomInt", "<I>I");
+};

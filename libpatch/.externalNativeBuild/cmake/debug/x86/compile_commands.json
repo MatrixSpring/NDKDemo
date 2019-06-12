@@ -1,0 +1,61 @@
+[
+{
+  "directory": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot -DpatchLibrary_EXPORTS -I../../../../src/main/jni/bzip2  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/patchLibrary.dir/src/main/jni/patchlibrary.c.o   -c /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/patchlibrary.c",
+  "file": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/patchlibrary.c"
+},
+
+{
+  "directory": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot -DpatchLibrary_EXPORTS -I../../../../src/main/jni/bzip2  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/patchLibrary.dir/src/main/jni/bsdiff.c.o   -c /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bsdiff.c",
+  "file": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bsdiff.c"
+},
+
+{
+  "directory": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot -DpatchLibrary_EXPORTS -I../../../../src/main/jni/bzip2  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/patchLibrary.dir/src/main/jni/bspatch.c.o   -c /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bspatch.c",
+  "file": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bspatch.c"
+},
+
+{
+  "directory": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot -DpatchLibrary_EXPORTS -I../../../../src/main/jni/bzip2  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/patchLibrary.dir/src/main/jni/bzip2/bzlib.c.o   -c /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/bzlib.c",
+  "file": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/bzlib.c"
+},
+
+{
+  "directory": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot -DpatchLibrary_EXPORTS -I../../../../src/main/jni/bzip2  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/patchLibrary.dir/src/main/jni/bzip2/crctable.c.o   -c /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/crctable.c",
+  "file": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/crctable.c"
+},
+
+{
+  "directory": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot -DpatchLibrary_EXPORTS -I../../../../src/main/jni/bzip2  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/patchLibrary.dir/src/main/jni/bzip2/compress.c.o   -c /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/compress.c",
+  "file": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/compress.c"
+},
+
+{
+  "directory": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot -DpatchLibrary_EXPORTS -I../../../../src/main/jni/bzip2  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/patchLibrary.dir/src/main/jni/bzip2/decompress.c.o   -c /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/decompress.c",
+  "file": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/decompress.c"
+},
+
+{
+  "directory": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot -DpatchLibrary_EXPORTS -I../../../../src/main/jni/bzip2  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/patchLibrary.dir/src/main/jni/bzip2/randtable.c.o   -c /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/randtable.c",
+  "file": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/randtable.c"
+},
+
+{
+  "directory": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot -DpatchLibrary_EXPORTS -I../../../../src/main/jni/bzip2  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/patchLibrary.dir/src/main/jni/bzip2/blocksort.c.o   -c /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/blocksort.c",
+  "file": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/blocksort.c"
+},
+
+{
+  "directory": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86",
+  "command": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android16 --gcc-toolchain=/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dawn/Library/Android/sdk/ndk-bundle/sysroot -DpatchLibrary_EXPORTS -I../../../../src/main/jni/bzip2  -isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/patchLibrary.dir/src/main/jni/bzip2/huffman.c.o   -c /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/huffman.c",
+  "file": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/huffman.c"
+}
+]

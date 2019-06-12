@@ -4,6 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NDKDemo.iml" filepath="$PROJECT_DIR$/NDKDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libencryption/libencryption.iml" filepath="$PROJECT_DIR$/libencryption/libencryption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libfile/libfile.iml" filepath="$PROJECT_DIR$/libfile/libfile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libhotfix/libhotfix.iml" filepath="$PROJECT_DIR$/libhotfix/libhotfix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libimgcompress/libimgcompress.iml" filepath="$PROJECT_DIR$/libimgcompress/libimgcompress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libpatch/libpatch.iml" filepath="$PROJECT_DIR$/libpatch/libpatch.iml" />
     </modules>
   </component>
 </project>

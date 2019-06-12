@@ -12,10 +12,6 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Used to load the 'native-lib' library on application startup.
-    static {
-        System.loadLibrary("native-lib");
-    }
 
     JNITest jniTest;
     @Override
@@ -26,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);
         jniTest = new JNITest();
-        tv.setText(jniTest.key+" : "+jniTest.stringFromJNI()+" :stringFromJNI"+stringFromJNI()+" : "+jniTest.key);
+        tv.setText(jniTest.key+" : "+jniTest.stringFromJNI()+" :stringFromJNI"+" : "+jniTest.key);
 
         tv.setText(JNITest.keyName+" : "+jniTest.accessStaticField()+"  : "+JNITest.keyName);
 
@@ -39,9 +35,5 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    /**
-     * A native method that is implemented by the 'native-lib' native library,
-     * which is packaged with this application.
-     */
-    public native String stringFromJNI();
+
 }

@@ -1,0 +1,85 @@
+{
+  "stringTable": {
+    "0": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/release/x86",
+    "1": "-isystem /Users/dawn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC  "
+  },
+  "buildFiles": [
+    "/Users/dawn/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/CMakeLists.txt",
+    "/Users/dawn/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/release/x86 --target clean"
+  ],
+  "libraries": {
+    "patchLibrary-Release-x86": {
+      "buildCommand": "/Users/dawn/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/release/x86 --target patchLibrary",
+      "buildType": "release",
+      "toolchain": "1687170989",
+      "abi": "x86",
+      "artifactName": "patchLibrary",
+      "files": [
+        {
+          "src": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/patchlibrary.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bsdiff.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bspatch.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/bzlib.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/crctable.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/compress.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/decompress.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/randtable.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/blocksort.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/src/main/jni/bzip2/huffman.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/build/intermediates/cmake/release/obj/x86/libpatchLibrary.so"
+    }
+  },
+  "toolchains": {
+    "1687170989": {
+      "cCompilerExecutable": "/Users/dawn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

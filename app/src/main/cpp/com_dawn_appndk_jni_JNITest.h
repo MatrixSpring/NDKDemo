@@ -24,6 +24,16 @@ JNIEXPORT jobject JNICALL Java_com_dawn_appndk_jni_JNITest_accessConstructor(JNI
 //访问父类的方法
 JNIEXPORT void JNICALL Java_com_dawn_appndk_jni_JNITest_accessNonvirtualMethod(JNIEnv *, jobject);
 
+//jni异常捕获
+JNIEXPORT void JNICALL Java_com_dawn_appndk_jni_JNITest_catchException(JNIEnv *, jobject);
+
+//jni缓存的使用
+JNIEXPORT void JNICALL Java_com_dawn_appndk_jni_JNITest_jniCache(JNIEnv *, jobject);
+
+//jni缓存的使用initIds
+JNIEXPORT void JNICALL Java_com_dawn_appndk_jni_JNITest_initGlobalIds(JNIEnv *, jobject);
+
+
 #ifdef __cplusplus
 }
 #endif

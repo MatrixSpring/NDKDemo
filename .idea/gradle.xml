@@ -9,6 +9,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/libencryption" />
+            <option value="$PROJECT_DIR$/libfile" />
+            <option value="$PROJECT_DIR$/libhotfix" />
+            <option value="$PROJECT_DIR$/libimgcompress" />
+            <option value="$PROJECT_DIR$/libpatch" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

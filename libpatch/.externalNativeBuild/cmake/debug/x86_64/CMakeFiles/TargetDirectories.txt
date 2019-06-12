@@ -1,0 +1,3 @@
+/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/Users/dawn/Downloads/ACBC/NDKDemo/libpatch/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/patchLibrary.dir
